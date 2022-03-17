@@ -1,0 +1,176 @@
+/*Global Styles*/
+
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*Navigation Header*/
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.logoimg {
+    height: 50px;
+    padding-top: 9.5px;
+    position: absolute;
+    left: 10px;
+}
+
+.logo {
+    list-style: none;
+}
+
+.tabs {
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-right: 10px;
+    list-style-type: none ;
+    text-decoration: underline;
+    position: relative;
+    left: 900px;
+    font-size: 22px;
+}
+
+/*Missions Image*/
+
+.midtab {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.midtab .missionimg {
+    height: 700px;
+    width: 1200px;
+}
+
+.midbanner {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+ }
+
+ /*Tea of the Month*/
+
+ .typeques {
+     position: relative;
+     top: 70px;
+     padding-top: 40px;
+     text-align: center;
+ }
+
+ .typestab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    top: 90px;
+    width: 1000px;
+}
+
+.typeimg {
+    height: 200px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.text {
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+
+/*Location*/
+
+.locationtab {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.locimg {
+    height: 560px;
+    width: 1200px;
+}
+
+.locations {
+    position: absolute;
+    top: 5px;
+    background-color: transparent;
+    width: 1200px;
+    text-align: center;
+}
+
+.locblockall {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    background-color: transparent;
+    width: 1200px;
+    top: 65px;
+}
+
+.locblock1 {
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    width: 300px;
+    height: 230px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.locblock2 {
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    width: 300px;
+    height: 230px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.locblock3 {
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    width: 300px;
+    height: 230px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+/*Contact & Copyright*/
+
+.contact {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    line-height: 30px;
+    opacity: 1;
+    position: relative;
+    top: -60px;
+    padding-top: 0.3px;
+}
+
+.copy {
+    text-align: left;
+    padding-left: 20px;
+}
